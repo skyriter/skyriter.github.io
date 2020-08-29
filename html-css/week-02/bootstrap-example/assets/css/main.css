@@ -1,13 +1,32 @@
-:root {
-	--spacer: 100px;
+body {
+	font-family: 'Oswald', sans-serif;
+
 }
-.carousel-item {
-	max-height: 500px;
+
+.carousel-inner .carousel-item {
+	height: 500px;
 	
 }
-.carousel-item img {
-	object-fit: cover;
+@media screen and (min-width: 768px) {
+	.carousel-item img {
+		margin-top: -50%;
+	}
 }
+.carousel-item img {
+	min-height: 500px;
+}
+
+.quote {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+}
+#transportation {
+	background-image: url(../imgs/duotone.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .bootstrap-list {
 	background-color: #16a085;
 	color: white;
