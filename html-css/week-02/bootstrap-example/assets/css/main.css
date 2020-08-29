@@ -1,0 +1,21 @@
+:root {
+	--spacer: 100px;
+}
+.carousel-item {
+	max-height: 500px;
+	
+}
+.carousel-item img {
+	object-fit: cover;
+}
+.bootstrap-list {
+	background-color: #16a085;
+	color: white;
+	/* padding: 2rem 4rem; */
+	
+}
+.bootstrap-list .list-group-item.active {
+	background-color: #34495e;
+}
+
+  
