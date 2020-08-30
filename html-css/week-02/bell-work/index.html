@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House picture</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Press Start 2P', cursive;
+        }
+        body {
+            position: relative;
+        }
+        .name {
+            position: relative;
+            text-align: center;
+
+        }
+        #sky {
+            background-color: azure;
+            height: 400px;
+            /* content: ""; */
+            position: relative;
+            
+
+        }
+        #sun {
+            background-color: yellow;
+            height: 70px;
+            width: 70px;
+            /* content: ""; */
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        #ground {
+            background-color: greenyellow;
+            height: 200px;
+            /* content: ""; */
+            position: relative;
+        } 
+        #house {
+            position: relative;
+            height: 100px;
+            width: 100px;
+            background-color: beige;
+            top: -80px;
+            left: 50%;
+            border-top:darkgrey 20px solid;
+        }
+        #door {
+            position: relative;
+            height: 40px;
+            width: 20px;
+            background-color: brown;
+            top: -120px;
+            left: calc(50% + 40px);
+        }
+        #window1 {
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            top: -50px;
+            left: calc(50% + 10px);
+            color: white;
+            font-size:6px;
+            
+            
+        }
+        #window1 p {
+            text-align: center;
+        }
+        #window2 {
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            top: -50px;
+            left: calc(50% + 70px);
+        }
+        #tree-trunk {
+            position: absolute;
+            height: 60px;
+            width: 30px;
+            background-color: burlywood;
+            top: -60px;
+            right: 40px;
+        }
+        #tree-canopy {
+            background-color: forestgreen;
+            height: 80px;
+            width: 80px;
+            /* content: ""; */
+            position: absolute;
+            top: -140px;
+            right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="name">
+        <h1>8-bit suburb</h1>
+    </div>
+    <section id="sky">
+        <div id="sun">
+            <div id="roof">
+
+
+                </div><!-- #roof -->
+
+            </div>
+           
+        </div>
+
+       
+    </section><!-- #sky -->
+    <section id="ground">
+        <div id="house">
+
+        </div><!-- #house -->
+        <div id="door">
+
+        </div><!-- #door -->
+        <div id="window1">
+            <p>BLM</p>
+            
+        </div><!-- #door -->
+        <div id="window2">
+
+        </div><!-- #door -->
+        <div id="tree-trunk">
+
+        </div>
+        <div id="tree-canopy">
+
+        </div>
+        
+
+       
+    </section><!-- #ground -->
+</body>
+</html>
